@@ -194,7 +194,7 @@
 
             <label for="email">Email:</label>
             <input type="email" id="email" placeholder="Digite seu email" name="_replyto">
-            
+
             <label for="mensagem">Mensagem:</label>
             <textarea rows="5" id="mensagem" placeholder="Sua mensagem" name="message"></textarea>
 
@@ -202,7 +202,19 @@
           </form>
         </div>
         <div class="contato--item">
-          <img src="./img/sm/recife-centro.jpg" alt="">
+          <div class="contato--mapa" style="overflow:hidden;resize:none;max-width:100%;width:400px;height:400px;">
+            <div id="mymap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;"
+                frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=caldas+advocacia+recife&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a
+              class="googlemaps-html" href="https://www.embed-map.com" id="make-mapdata">https://www.embed-map.com</a>
+            <style>
+              #mymap-canvas img {
+                max-width: none !important;
+                background: none !important;
+                font-size: inherit;
+                font-weight: inherit;
+              }
+            </style>
+          </div>
         </div>
       </div>
     </section>
